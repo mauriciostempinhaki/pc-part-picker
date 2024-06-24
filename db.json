@@ -1,0 +1,234 @@
+{
+  "users": [
+    {
+      "id": "86f2",
+      "username": "admin",
+      "password": "admin",
+      "phone": "42988315155"
+    },
+    {
+      "id": "689f",
+      "username": "admin",
+      "password": "admin",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "mauriciocstempinhaki@hotmail.com"
+    },
+    {
+      "id": "26e0",
+      "username": "mauriciostempinhaki",
+      "password": "aaa",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "04e8",
+      "username": "admin",
+      "password": "aa",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "6f8f",
+      "username": "admin",
+      "password": "asas",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "346e",
+      "username": "admin",
+      "password": "aaa",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "92c1",
+      "username": "admin",
+      "password": "123",
+      "phone": "gggg",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "a05a",
+      "username": "admin",
+      "password": "1",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "mauriciocstempinhaki@hotmail.com"
+    },
+    {
+      "id": "ca5d",
+      "username": "admin",
+      "password": "1",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "43c9",
+      "username": "admin",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "4826",
+      "username": "admin",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "5293",
+      "username": "admin",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "mauriciocstempinhaki@hotmail.com"
+    },
+    {
+      "id": "8c72",
+      "username": "admin",
+      "password": "123",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "e110",
+      "username": "admin",
+      "password": "asd",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "6113",
+      "username": "admin",
+      "password": "ii",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "af5e",
+      "username": "admin",
+      "password": "1",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "f708",
+      "username": "admin",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "c4af",
+      "username": "admin",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "mauriciocstempinhaki@hotmail.com"
+    },
+    {
+      "id": "de0a",
+      "username": "admin",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "df50",
+      "username": "admin",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "b7bc",
+      "username": "admin",
+      "password": "aa",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "d9db",
+      "username": "admin",
+      "password": "aa",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "2e97",
+      "username": "admin",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "c4de",
+      "username": "aaaaaaaaaaaa",
+      "password": "ssss",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "mauriciocstempinhaki@hotmail.com"
+    },
+    {
+      "id": "d7dc",
+      "username": "aaaaaaaaaaaa",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "e4fc",
+      "username": "aaaaaaaaaaaa",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "6eff",
+      "username": "aaaaaaaaaaaa",
+      "password": "a",
+      "phone": "42988315155",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "cb1e",
+      "username": "admin",
+      "password": "admin",
+      "phone": "(42) 9883-1515",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    },
+    {
+      "id": "0802",
+      "username": "admin",
+      "password": "123",
+      "phone": "(32) 1111-1111",
+      "address": "Rua Sorocaba",
+      "email": "maucraftpvp@gmail.com"
+    }
+  ]
+}

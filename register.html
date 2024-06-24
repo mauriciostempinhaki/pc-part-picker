@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top  navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="/images/PCPartPicker_Logo.png" alt="Logo" width="180" height="30"
+                    class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse justify-content-center collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="produtos.html"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="20" height="20" fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
+                                <path
+                                    d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z" />
+                            </svg> Produtoss</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-pc-display" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z" />
+                            </svg> Computadores</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse justify-content-end collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-register">
+                        <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-register">
+                        <a class="nav-link active" href="register.html">Cadastre-se</a>
+                    </li>
+                    <li class="nav-logado">
+                        <a class="nav-link active" id="logoutButton" href="login.html">Sair</a>
+                    </li>
+                    <li class="nav-logado">
+                        <a class="nav-link active" id="logoutButton" href="#"><span id="usernameDisplay"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- formulario -->
+    <div class="container mt-5 pt-5">
+        <h2>Cadastre-se</h2>
+        <form id="registerForm">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="address" name="address" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <div class="mb-3">
+                <label for="confirmPassword" class="form-label">Confirme a Senha</label>
+                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <button type="submit" class="btn btn-dark">Cadastrar</button>
+        </form>
+        <a href="login.html">Fazer login</a>
+    </div>
+    <!-- formulario -->
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Sobre Nós</h5>
+                    <p>Somos uma empresa focada em fornecer soluções tecnológicas de alta qualidade. Nossa equipe de
+                        profissionais dedicados oferece produtos inovadores e serviços personalizados para atender às
+                        necessidades do mercado. Comprometidos com a excelência e a satisfação do cliente.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Produtos</a></li>
+                        <li><a href="index.html" class="text-white">Computadores</a></li>
+                        <li><a href="login.html" class="text-white">Login</a></li>
+                        <li><a href="register.html" class="text-white">Cadastre-se</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Contato</h5>
+                    <ul class="list-unstyled">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path d="M12 4a4 4 0 1 0-8 0 4 4 0 0 0 8 0z" />
+                                <path d="M12 4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" />
+                                <path d="M11 4a3 3 0 1 0-6 0 3 3 0 0 0 6 0z" />
+                                <path d="M11 8c0 1.355-2 4.5-2 4.5s-2-3.145-2-4.5a2 2 0 1 1 4 0z" />
+                            </svg> Rua Saldanha, 23</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.654 1.328a.678.678 0 0 1 .857-.292l2.013.805c.287.115.47.376.506.67l.35 2.772a.678.678 0 0 1-.342.629l-1.022.512a11.13 11.13 0 0 0 4.019 4.019l.512-1.022a.678.678 0 0 1 .629-.342l2.772.35c.294.036.555.219.67.506l.805 2.013a.678.678 0 0 1-.292.857l-2.449 1.225a1.745 1.745 0 0 1-1.624 0C6.163 13.803 2.675 10.315 1.35 5.868a1.745 1.745 0 0 1 0-1.624L2.575 1.328z" />
+                            </svg> (42) 3456-7890</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2.05-.15A1 1 0 0 0 2 4v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V4a1 1 0 0 0-.05-.15L8 7.803 2.05 3.85zM8 6.803l6-4V4L8 8 2 4V2.803l6 4z" />
+                            </svg>pcpartpicker@hotmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Siga-nos</h5>
+                    <a href="#" class="text-white me-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M8.051 1.755a6.255 6.255 0 1 0 0 12.51 6.255 6.255 0 0 0 0-12.51zm0 11.314a5.057 5.057 0 1 1 0-10.113 5.057 5.057 0 0 1 0 10.113zm0-4.673H7.116V5.527h.935V7.33c0 1.104-.594 1.704-1.66 1.704-.96 0-1.426-.555-1.426-.555l.19-.938s.398.366 1.088.366c.526 0 .719-.252.719-.639V5.527H5.083V4.633h1.28v-.78c0-.43.187-.686.58-.686h.731v1.178h-.518c-.193 0-.315.106-.315.273v.758h.874v.895h-.874V7.4h.935v.998z" />
+                        </svg></a>
+                    <a href="#" class="text-white me-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15C11.07 15 14.318 9.374 14.318 4.392 14.318 4.292 14.318 4.192 14.318 4.092A8.68 8.68 0 0 0 16 3.125a8.238 8.238 0 0 1-2.356.647 4.281 4.281 0 0 0 1.842-2.377 8.487 8.487 0 0 1-2.713 1.064A4.221 4.221 0 0 0 11.073 1c-2.341 0-4.245 1.865-4.245 4.163 0 .33.045.651.122.956A11.908 11.908 0 0 1 1.354 2.606a4.13 4.13 0 0 0-.574 2.096c0 1.443.767 2.729 1.927 3.478a4.268 4.268 0 0 1-1.932-.527v.051c0 2.016 1.463 3.696 3.404 4.073-.35.095-.723.146-1.105.146-.27 0-.53-.023-.787-.069a4.298 4.298 0 0 0 4.002 2.94 8.571 8.571 0 0 1-5.29 1.816 8.43 8.43 0 0 1-1.013-.058 12.085 12.085 0 0 0 6.304 1.841" />
+                        </svg></a>
+                    <a href="#" class="text-white me-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 5.247a2.753 2.753 0 1 0 0 5.506 2.753 2.753 0 0 0 0-5.506zM8 11a3.255 3.255 0 1 1 0-6.51 3.255 3.255 0 0 1 0 6.51zM12.197 5.177a.586.586 0 1 1-1.172 0 .586.586 0 0 1 1.172 0zm2.43-.297a3.38 3.38 0 0 0-.921-2.391A3.38 3.38 0 0 0 11.314 1H4.686A3.38 3.38 0 0 0 2.372 2.489a3.38 3.38 0 0 0-.922 2.391V11.26c0 .936.368 1.825.922 2.391a3.38 3.38 0 0 0 2.314.921h6.628a3.38 3.38 0 0 0 2.391-.922 3.38 3.38 0 0 0 .921-2.391V4.88zM13 11.26a2.373 2.373 0 0 1-.651 1.674 2.373 2.373 0 0 1-1.674.651H4.686a2.373 2.373 0 0 1-1.674-.651A2.373 2.373 0 0 1 2.36 11.26V4.88a2.373 2.373 0 0 1 .651-1.674A2.373 2.373 0 0 1 4.686 2.56h6.628a2.373 2.373 0 0 1 1.674.651 2.373 2.373 0 0 1 .651 1.674V11.26z" />
+                        </svg></a>
+                    <a href="#" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.324 0 .722 0h14.556c.398 0 .722.513.722 1.146v13.708c0 .633-.324 1.146-.722 1.146H.722A.723.723 0 0 1 0 14.854V1.146zM4.743 12.316V6.169H2.713v6.147h2.03zM3.728 5.152c.697 0 1.127-.48 1.127-1.078-.013-.609-.43-1.077-1.107-1.077-.676 0-1.127.468-1.127 1.077 0 .598.43 1.078 1.093 1.078h.014zm6.253 7.164V8.603c0-.195.014-.39.073-.53.161-.39.53-.795 1.147-.795.81 0 1.133.598 1.133 1.473v3.765h2.03v-4.036c0-2.165-1.153-3.17-2.69-3.17-1.24 0-1.76.676-2.066 1.163h.028V6.169h-2.03c.027.662 0 6.147 0 6.147h2.03z" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-secondary text-center py-3">
+            <p class="mb-0">© 2024 PcPartPicker. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <!-- footer -->
+    <script src="validacao.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="register.js"></script>
+</body>
+
+</html>
